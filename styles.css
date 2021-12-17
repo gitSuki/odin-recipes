@@ -3,11 +3,27 @@
     background-color: whitesmoke;
 }
 
-a {
+/* grouping selectors */
+a,
+.food {
     color:lightcoral;
 }
 
+h1,
+h2 {
+    color:darkslategrey;
+}
+
+h3,
+h4 {
+    color:dimgrey;
+}
+
+.image {
+    height: auto;
+    width: 500px;
+}
+
 .food {
-    font-weight: 100;
-    color: darkblue;
+    font-weight: bold;
 }
